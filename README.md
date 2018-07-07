@@ -19,7 +19,7 @@ Basic Linux knowledge (we are going to focus in Centos this time) / advanced Win
 
 -------] Configure [-------
 
-  * Install Python and python-pip on Centos
+  * Install Python and python-pip on Centos (epel for Centos / RHEL must be installed)
 
         [hheisego@hh-server ~]$ sudo yum -y install python
 
