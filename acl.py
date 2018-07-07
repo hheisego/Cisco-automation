@@ -8,8 +8,8 @@ import sys
 
 # Variables
 routers = ["10.236.58.66", "10.237.179.66", "10.237.180.66 "]
-username = "heisegoh"
-password = "Welcome123"
+username = "hheisego"
+password = "savetime123"
 # Loop
 for device in routers:
         try:
@@ -30,17 +30,14 @@ for device in routers:
 # Split the output by spaces so we can search the response
                 words = output7.split()
                 
-                # Look for "public" in the output
+                # Look for a specific word--- to be released in v2.0
                 #for x in words:
                 #        if x == "snmp-server host 10.193.135.12 version 2c Wr7j4p3vi9pe9eth":
                 #                print "flag"
                 #        else:
                 #                print "SNMP parameter removed."
 
-		print "Commands performed \r\n", output, "\r\n ", output1, "\r\n", output2, "\r\n", output3, "\r\n", output4, "\r\n", output5, "\r\n", output6, "\r\n", output8
-                #print output8, "\r\n", output9
-                                                                                
-		#print "Configuration performed in host: ",hostname, "\r\n", output1, "\r\n", output2, "\r\n", output3, "\r\n", output5 
+		print "Commands performed \r\n", output, "\r\n ", output1, "\r\n", output2, "\r\n", output3, "\r\n", output4, "\r\n", output5, "\r\n", output6
 
 
         except:
