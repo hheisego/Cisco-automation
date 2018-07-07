@@ -20,9 +20,9 @@ Basic Linux knowledge (we are going to focus in Centos this time) / advanced Win
 
   * Install Python and python-pip on Centos
 
-    [hheisego@hh-server ~]$ sudo yum -y install python
+        [hheisego@hh-server ~]$ sudo yum -y install python
 
-    [hheisego@hh-server ~]$ sudo yum -y install python-pip
+        [hheisego@hh-server ~]$ sudo yum -y install python-pip
 
   * Install required libraries
   
@@ -36,15 +36,15 @@ Basic Linux knowledge (we are going to focus in Centos this time) / advanced Win
  
   * this is my first github post but i am suspecting that if you clone or download the scripts you may want to give file execution permissions
   
-    [hheisego@hh-vorwerk ~]$ chmod +x filename.py
+        [hheisego@hh-vorwerk ~]$ chmod +x filename.py
     
   **** at least for Linux side, in this first release is a must have performed an ssh to all Cisco devices that script may config or collect information, why? -> the fingerprint key needs to be stored as below example:
   
     [hheisego@hh-vorwerk ~]$ ssh heisegoh@10.232.120.1
   
-The authenticity of host '10.232.120.1 (10.232.120.1)' can't be established.
-RSA key fingerprint is SHA256:2NG2v36b1cdRFKbuMqtZez2f2oRAdQjGhqM73cPBpbg.
-Are you sure you want to continue connecting (yes/no)? yes
+    The authenticity of host '10.232.120.1 (10.232.120.1)' can't be established.
+    RSA key fingerprint is SHA256:2NG2v36b1cdRFKbuMqtZez2f2oRAdQjGhqM73cPBpbg.
+    Are you sure you want to continue connecting (yes/no)? yes
 
   **** usage of ts2.py script ****
   
