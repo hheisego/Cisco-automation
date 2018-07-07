@@ -15,6 +15,7 @@ Basic Linux knowledge (we are going to focus in Centos this time) / advanced Win
 - Linux (any flavor), Centos prefered.
 - Python 2.7
 - Vim editor / nano
+- Add the EPEL Repository Pip is part of Extra Packages for Enterprise Linux (EPEL), which is a community repository of non-standard     packages for the RHEL distribution
 
 -------] Configure [-------
 
