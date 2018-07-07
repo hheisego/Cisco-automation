@@ -1,7 +1,8 @@
 # Cisco-automation
-Automation script to save life hours
+Automation script to save life hours by Helmut Heise
 
 -------> Introduction <-------
+
 This documents describes how to setup a python script used and intended automate repetitive manual work. I have written this document for one colleague who needs to get information from 1000 devices every month for billing purposes, he used to waste at least 5 hours to achieve this, well we simply are wasting now 10 minutes.
 
 -------# Prerequisites / Requirements #--------
@@ -23,6 +24,7 @@ Basic Linux knowledge (we are going to focus in Centos this time) / advanced Win
     [hheisego@hh-server ~]$ sudo yum -y install python-pip
 
   * Install required libraries
+  
   we are going to use crashh library this save me tons of time since functions are really easy to invoke.
 
     [hheisego@hh-server ~]$ pip install crassh
