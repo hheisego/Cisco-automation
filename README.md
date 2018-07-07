@@ -35,8 +35,8 @@ Basic Linux knowledge (we are going to focus in Centos this time) / advanced Win
  ------ } Verify and run { ------
  
   * this is my first github post but i am suspecting that if you clone or download the scripts you may want to give file execution permissions
-
-    [hheisego@hh-server ~]$ chmod +x filename.py
+  
+  [hheisego@hh-server ~]$ chmod +x filename.py
     
   **** at least for Linux side, in this first release is a must have performed an ssh to all Cisco devices that script may config or collect information, why? -> the fingerprint key needs to be stored as below example:
   
