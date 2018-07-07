@@ -26,6 +26,7 @@ Basic Linux knowledge (we are going to focus in Centos this time) / advanced Win
   we are going to use crashh library this save me tons of time since functions are really easy to invoke.
 
     [hheisego@hh-server ~]$ pip install crassh
+    [hheisego@hh-server ~]$ pip install datetime
     
  ------ } Verify and run { ------
  
