@@ -29,6 +29,7 @@ Basic Linux knowledge (we are going to focus in Centos this time) / advanced Win
   we are going to use crashh library this save me tons of time since functions are really easy to invoke.
 
     [hheisego@hh-server ~]$ pip install crassh
+    
     [hheisego@hh-server ~]$ pip install datetime
     
  ------ } Verify and run { ------
@@ -40,11 +41,13 @@ Basic Linux knowledge (we are going to focus in Centos this time) / advanced Win
   **** at least for Linux side, in this first release is a must have performed an ssh to all Cisco devices that script may config or collect information, why? -> the fingerprint key needs to be stored as below example:
   
   [hheisego@hh-vorwerk ~]$ ssh heisegoh@10.232.120.1
+  
 The authenticity of host '10.232.120.1 (10.232.120.1)' can't be established.
 RSA key fingerprint is SHA256:2NG2v36b1cdRFKbuMqtZez2f2oRAdQjGhqM73cPBpbg.
 Are you sure you want to continue connecting (yes/no)? yes
 
   **** usage of ts2.py script ****
+  
   this script will run the ios command: sh int status | in connected
       
       [hheisego@hh-server ~]$ ./ts2.py
@@ -52,6 +55,7 @@ Are you sure you want to continue connecting (yes/no)? yes
         ++ enter the report name
         
   **** usage of acl.py ****
+  
   this script will run couple commands in order to delete an acl entry, is an example of how you can adapt these scripts to your environment.
   
       [hheisego@hh-server ~]$ ./acl.py
