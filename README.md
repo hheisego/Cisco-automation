@@ -4,7 +4,7 @@ Automation script to save life hours by Helmut Heise
 
 -------> Introduction <-------
 
-This documents describes how to setup a python script used and intended to automate repetitive / manual work. I have written this document for one colleague who needs to get information from 1000 devices every month for billing purposes, he used to waste at least 5 hours to achieve this, well we simply are wasting now 10 minutes.
+This document describes how to setup a python script used and intended to automate repetitive / manual work. I have written this document for one colleague who needs to get information from 1000 devices every month for billing purposes, he used to waste at least 5 hours to achieve this, well we simply are wasting now 10 minutes.
 
 -------# Prerequisites / Requirements #--------
 
@@ -61,5 +61,9 @@ Basic Linux knowledge (we are going to focus in Centos this time) / advanced Win
   
       [hheisego@hh-server ~]$ ./acl.py
   
+  **** usage of ts3.py script ****
   
-     
+  Basically what we need here is to place a text file with the name ipaddr.txt in the same folder where the script is located, this  text file must have the ip addresses (one address per line), it runs like ts2.py but using the ip addresses listed in the text file.
+  
+  
+   
