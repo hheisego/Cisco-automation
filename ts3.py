@@ -8,17 +8,11 @@ from termcolor import colored, cprint
 
 # Variables
 
-routers = ["10.232.120.1", "10.233.8.2", "10.232.24.13", "10.232.24.14", "10.232.24.15", "10.232.248.2", "10.232.248.3", "10.232.248.11",
-                   "10.232.248.12", "10.232.248.13", "10.232.248.14", "10.232.248.15", "10.232.248.16", "10.232.248.17", "10.232.248.18", "10.232.248.19"] 
 
-username = "heisegoh"
-password = "Welcome123"
+username = "hheisego"
+password = "savetime123"
 
 
-# var1 = len(routers) before reading damn ipaddr.txt file
-
-
-# var2 = var1 old script
 
 #read ip addresses from text file line by line
 
@@ -72,19 +66,15 @@ for device in routers2:
                         cprint('\n\n ---------------- Success !!! --------------', 'green', attrs=['blink'])
 
 
-# progress bar
-                #progress = progressbar.ProgressBar()
-                #for i in progress(range(80)):
-                #       time.sleep(0.01)
 
 
 
-#ciclo de escritora del pinche archivo
-#       for i in range(2):
+#ciclo de escritora 
+
                 f.write("\r\n\r\n ------>>Hostname: %s<<-----report time: %s-------------------- \r\n\r\n %s " % (hostname, time, output))
 
 
-        #closing fucking fil
+        #closing ffile
                 f.close()
 
 
