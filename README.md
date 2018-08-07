@@ -65,5 +65,5 @@ Basic Linux knowledge (we are going to focus in Centos this time) / advanced Win
   
   Basically what we need here is to place a text file with the name ipaddr.txt in the same folder where the script is located, this  text file must have the ip addresses (one address per line), it runs like ts2.py but using the ip addresses listed in the text file.
   
-  
+  if something goes wrong please contact me at hheisego@gmail.com
    
